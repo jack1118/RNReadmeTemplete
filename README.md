@@ -83,11 +83,27 @@ Describe the project structure like the following example:
 
 Give a detail explanation on how your package is used. For REST APIs, a Swagger api documentation link is needed in this section.
 
+### Sample
+
+Sample component that demonstrates how a API or a component documentation should be.
+
+holds camera state and provides camera controls
+
 ```js
 import { Sample } from '@react-native-fihtdc-sample';
+```
 
+```js
 const App = () => <Sample title="Hello World!" />;
 ```
+
+|Prop|Type|Default|Note|
+| - | - | - | - |
+|`url`|`string`||Ttitle of the Sample component.
+
+return values:
+
+None
 
 ## Build
 
